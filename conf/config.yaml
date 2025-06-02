@@ -40,6 +40,7 @@ cross_encoder:
 rerank:
   multiplier: 5
 
+# Change this HF's hub dir w.r.t your system's path
 hf_cache_dir: '/home/senthilkumar/.cache/huggingface/hub/'
 
 retrieve:
