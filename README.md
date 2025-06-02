@@ -159,7 +159,7 @@ Evaluates embedding and re-ranking models, logging to MLflow.
 
 Launches the interactive RAG UI.
 
-1. *Prerequisites*: Indexed database, running PostgreSQL, and a running MLflow server.
+1. *Prerequisites*: Documents indexed database, running PostgreSQL instance locally, and a running MLflow server.
 2. *Run*:
     ```bash
     # First, spin up the MLflow tracking server 
