@@ -1,0 +1,56 @@
+defaults:
+  - _self_
+  - db: postgres
+
+
+# Args to pass at the CLI for indexing docs
+directory: ""
+remove_images: false
+remove_hyperlinks: false
+
+# Table and Index Configuration
+table:
+  name: "semiconductor_documents"
+  embed_dim: 384
+
+# HNSW index parameters
+index:
+  hnsw_m: 16
+  hnsw_ef_construction: 64
+  distance_func: "vector_cosine_ops"
+  hnsw_ef_search: 128
+  name_suffix: "_embedding_hnsw_idx"
+
+# Gemini model
+gemini:
+  model: 'gemini-2.0-flash'
+  qn_generator_model: 'gemini-2.5-flash-preview-04-17'
+  max_tokens: 4096
+
+# Embedding model
+embedding_model:
+  name: 'sentence-transformers/all-mpnet-base-v2'
+  embed_dim:  768
+
+# Rr-ranker
+cross_encoder:
+  name: 'mixedbread-ai/mxbai-rerank-xsmall-v1'
+  # name: 'mixedbread-ai/mxbai-rerank-base-v1'
+
+rerank:
+  multiplier: 5
+
+hf_cache_dir: '/home/senthilkumar/.cache/huggingface/hub/'
+
+retrieve:
+  top_k: 5
+  
+
+# MLflow
+mlflow:
+  tracking_uri: "http://localhost:5000"
+
+# Paths
+eval:
+  csv_file: 'data/semiconductor_documents.csv'
+  eval_qn_json: 'data/synthetic_evaluation_questions.json'
