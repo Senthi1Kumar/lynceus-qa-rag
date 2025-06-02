@@ -1,0 +1,20 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch==2.4.1
+mlflow==3.0.0rc1
+llama-index
+llama-index-core
+llama-index-llms-google-genai
+llama-index-llms-ollama
+llama-index-embeddings-huggingface
+llama-index-readers-file
+llama-index-readers-llama-parse
+sentence-transformers
+google-genai
+tqdm
+python-dotenv
+psycopg2-binary
+pgvector
+pandas
+hydra-core
+streamlit

@@ -1,0 +1,248 @@
+[
+    {
+        "query_id": "q1",
+        "reference_node_ids": [
+            "94a73444-bcd4-4814-8577-5e4e6db87e27"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "Who investigates a trouble reported in the manufacturing process?",
+        "error": null
+    },
+    {
+        "query_id": "q2",
+        "reference_node_ids": [
+            "3fcb06f4-69c5-4cc9-a3c3-0ad67a507dc5"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "How do customers report a malfunction to the Quality Assurance Department?",
+        "error": null
+    },
+    {
+        "query_id": "q3",
+        "reference_node_ids": [
+            "03a87c7f-7ba1-4182-838b-9869bb94cb4d"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "My supply chain has malfunctions and variations. How does the QMS address this?",
+        "error": null
+    },
+    {
+        "query_id": "q4",
+        "reference_node_ids": [
+            "553f9bc8-eda2-4712-8b2d-b0a4df19f7f6"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "What key metric is monitored annually to assess quality?",
+        "error": null
+    },
+    {
+        "query_id": "q5",
+        "reference_node_ids": [
+            "50aac2b4-8cc5-44c3-96f8-b5eef9c70c96"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "I'm troubleshooting a software failure. According to ISO/IEC 25010, which quality model should I look at?",
+        "error": null
+    },
+    {
+        "query_id": "q6",
+        "reference_node_ids": [
+            "f844eb72-8c07-486a-9fd7-d7e25412f55c",
+            "280d1ce0-cef7-46d5-8034-86f57bd16a1e",
+            "08bfd448-376a-482f-94b0-91777dc55668"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "Why are early methods like logical simulation and static analysis used before testing the actual machine or operating software?",
+        "error": null
+    },
+    {
+        "query_id": "q7",
+        "reference_node_ids": [
+            "7346f4bd-fd1c-4db5-8333-f645760843ed",
+            "f7a28b42-f50d-4902-8a25-68a26aed5387",
+            "bc85f290-330d-4a1d-9c8d-baa62f0bb999"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "Which reliability distributions are typically used to analyze wear-out versus accidental failures in semiconductor devices?",
+        "error": null
+    },
+    {
+        "query_id": "q8",
+        "reference_node_ids": [
+            "39cc1fd9-8cc1-468f-9b7b-d82d15638d39"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "What manufacturing defects commonly cause early failures in semiconductor devices?",
+        "error": null
+    },
+    {
+        "query_id": "q9",
+        "reference_node_ids": [
+            "04e8454e-8e7e-463a-b693-51116f0e22a2",
+            "9a8fc055-d51b-4302-9403-b772640cc635"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "How do we verify reliability against both early failures from defects and long-term wear-out?",
+        "error": null
+    },
+    {
+        "query_id": "q10",
+        "reference_node_ids": [
+            "43bf46f7-bfed-4096-8879-76e1b9c67e78"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "What are the specified conditions for the THB reliability test?",
+        "error": null
+    },
+    {
+        "query_id": "q11",
+        "reference_node_ids": [
+            "71762d1a-2df3-457f-a413-ec324f6059b5",
+            "aa91d5b1-91ca-4bd3-9da7-fd1c33a0764e",
+            "8ca943f3-ab8e-4b1d-a2fa-b411984861b5"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "My device has soft errors; should I use ECC or improve package purity?",
+        "error": null
+    },
+    {
+        "query_id": "q12",
+        "reference_node_ids": [
+            "71544e8a-ed0d-437a-a0be-87b6e9f128e6"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "What factors increase the chance of a sample colliding with the tumbling barrel side?",
+        "error": null
+    },
+    {
+        "query_id": "q13",
+        "reference_node_ids": [
+            "d4d15997-6896-4fff-85ee-785c69108eb8"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "Why might IR-OBIRCH analysis not work for failures requiring a semiconductor tester?",
+        "error": null
+    },
+    {
+        "query_id": "q14",
+        "reference_node_ids": [
+            "7ca30d1d-d5ec-40ef-819a-25903c18b257",
+            "5cdabdc0-7893-41cf-8620-f750f149474d",
+            "8b43475e-1f52-4f23-8656-febb8af755d1",
+            "105cdf15-fceb-480c-8102-61c4a3dfe894",
+            "76ec91c0-ae71-46d3-81ed-a8d5e8922f64"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "Why must devices be transferred from normal temperature trays, magazines, or embossed tape before baking?",
+        "error": null
+    },
+    {
+        "query_id": "q15",
+        "reference_node_ids": [
+            "aa78563e-5c4b-4d2c-8fc2-9a14db975730"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "When troubleshooting, how is the life of a laser diode typically defined based on operating current?",
+        "error": null
+    },
+    {
+        "query_id": "q16",
+        "reference_node_ids": [
+            "3474b32b-9e0a-4ed3-803e-92d82d374409"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "Could using the wrong wire gauge cause poor connections on my breadboard?",
+        "error": null
+    },
+    {
+        "query_id": "q17",
+        "reference_node_ids": [
+            "5dbb1f55-c7d3-4f4f-8fa4-e42a4459544c",
+            "047f4cf3-d30c-4c05-8bea-4aa3eb0aee11"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "What passive component type, unlike an inductor, must be inserted in a specific direction to avoid issues like explosion?",
+        "error": null
+    },
+    {
+        "query_id": "q18",
+        "reference_node_ids": [
+            "1aa1aeee-61a4-46a5-9312-8c32d884c665"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "My light-dependent resistor's resistance isn't changing with light levels; is this normal?",
+        "error": null
+    },
+    {
+        "query_id": "q19",
+        "reference_node_ids": [
+            "abfa4d7a-e73f-4028-a316-29e044f88a6a",
+            "c52ac521-cd54-4319-9086-8c084742a582"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "When using an LED as a light detector in photovoltaic mode, why might the measured voltage differ between a yellow and blue LED under the same light?",
+        "error": null
+    },
+    {
+        "query_id": "q20",
+        "reference_node_ids": [
+            "d4941d6b-0423-42c1-9441-7a0bae6a4a63",
+            "7a8db9d5-4f38-401d-9c8b-743ee5e86e24",
+            "6c4c4a33-ac9f-4a67-bb1f-882e99939d6c",
+            "104f6909-0147-49cf-8025-3d73226c0277",
+            "aa867c68-d820-4e19-acdf-56cd58879293"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "How do I safely measure a non-ground referenced signal on the MDO 3000 oscilloscope?",
+        "error": null
+    },
+    {
+        "query_id": "q21",
+        "reference_node_ids": [
+            "c816f374-4f74-4202-8c28-62c35e566fea"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "Why is FT-IR not appropriate for analyzing minute contamination or areas under several micrometers?",
+        "error": null
+    },
+    {
+        "query_id": "q22",
+        "reference_node_ids": [
+            "e0928a6e-583d-4d3d-a3cd-3f3ea93bf1e9",
+            "b212da87-083c-4ba4-8874-bd79c1124614",
+            "034e200d-89ce-4ca9-8e3a-5b2ab640937f"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "When troubleshooting stress migration voids, how does their location differ between aluminum and copper wiring?",
+        "error": null
+    },
+    {
+        "query_id": "q23",
+        "reference_node_ids": [
+            "18552086-5590-4dbd-83aa-fc25bd7eaf95"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "Why is the bond between two different materials like seal glass peeling after temperature cycling?",
+        "error": null
+    },
+    {
+        "query_id": "q24",
+        "reference_node_ids": [
+            "17fddfa2-2303-4f08-a5ee-cab7fc0a6f82"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "What potential failure modes does Power and Temperature Cycling testing reveal?",
+        "error": null
+    },
+    {
+        "query_id": "q25",
+        "reference_node_ids": [
+            "90c01c44-8182-4b7c-8aac-8676bd27fbf4",
+            "3d4f730a-8c22-436f-8fef-8880802b0bf8",
+            "062139b0-0a6b-40e1-be91-0b47d2de5f2b"
+        ],
+        "context_text_retrieved": true,
+        "generated_question": "Why might my common source JFET amplifier have a voltage gain under one?",
+        "error": null
+    }
+]
